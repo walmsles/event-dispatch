@@ -1,0 +1,35 @@
+{
+  "name": "walmsles/event-dispatch",
+  "type": "library",
+  "description": "De-coupled event subscribe/dispatch class",
+  "keywords": [
+    "date",
+    "time",
+    "DateTime"
+  ],
+  "support": {
+    "issues": "https://github.com/michaelwalmsley/event-dispatch/issues",
+    "source": "https://github.com/michaelwalmsley/event-dispatch"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Walmsley",
+      "email": "michael.walmsley@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0|~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "EventDispatch\\": "src/EventDispatch/"
+    }
+  }
+}
+
+
+
