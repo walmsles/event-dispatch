@@ -22,6 +22,12 @@ $dispatcher->subscribe('myEvent', function($myData1, $myData2) {
 
 $dispatch->dispatch('myEvent', array('event data', 'event data 2');
 ```
+## installation
+```
+composer require walmsles/event-dispatch
+```
+
+If you don't have composer - get it!  http://getcomposer.org
 
 ## License - MIT
 ```
