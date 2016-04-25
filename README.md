@@ -5,7 +5,7 @@ This project is an exploration of TDD - I should be doing this more and thought 
 
 ## What does this package provide
 This package provides a clean, de-coupled Publish/Subscribe interface for Dispatching custom defined Events.
-Events are completely customisable including data passed into the Events.  Events are dispatched via PHP `call_user_func_array()` so to pass multiple parameters pass an array payload as an array().  Event listeners can be anny PHP callable structure - Closure, Function, Class Method.  Refer PHP documentation 'call_user_func_array'.
+Events are completely customisable including data passed into the Events.  Events are dispatched via PHP `call_user_func_array()` so to pass multiple parameters pass an array payload as an array().  Event listeners can be anny PHP callable structure - Closure, Function, Class Method.  Refer PHP documentation [call_user_func_array](http://php.net/manual/en/function.call-user-func-array.php).
 
 ## Usage
 
