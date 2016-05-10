@@ -1,8 +1,8 @@
 <?php
 
-namespace EventDispatch;
+namespace walmsles\EventDispatch;
 
-use EventDispatch\Exception\SubscriberNotCallable;
+use walmsles\EventDispatch\Exception\SubscriberNotCallable;
 
 /**
  * Class Dispatcher

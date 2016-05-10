@@ -1,7 +1,7 @@
 <?php
 
-use EventDispatch\Dispatcher;
-use EventDispatch\Exception\SubscriberNotCallable;
+use walmsles\EventDispatch\Dispatcher;
+use walmsles\EventDispatch\Exception\SubscriberNotCallable;
 
 require __DIR__."/../testSetup.php";
 
@@ -67,7 +67,7 @@ class DispatcherTest extends PHPUnit_Framework_TestCase
     /**
      * @param \EventDispatch\Dispatcher $dispatcher
      * @depends testCanCreateDispatcher
-     * @expectedException \EventDispatch\Exception\SubscriberNotCallable
+     * @expectedException \walmsles\EventDispatch\Exception\SubscriberNotCallable
      */
     public function testCanSubscribefunction(Dispatcher $dispatcher)
     {

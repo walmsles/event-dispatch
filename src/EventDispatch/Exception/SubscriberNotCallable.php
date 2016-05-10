@@ -1,6 +1,6 @@
 <?php
 
-namespace EventDispatch\Exception;
+namespace walmsles\EventDispatch\Exception;
 
 /**
  * Class SubscriberNotCallable
